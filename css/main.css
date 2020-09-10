@@ -1,21 +1,20 @@
 body {
 background-color: #7f5a83;
 background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-height: 100vh;
+/*height: 200vh;*/
 
 }
 
 .container {
-  background-color: white;
 }
 
 
 #carebridgeCarousel {
-  width: 600px;
+  width: 500px;
 }
 
 #luCarousel {
-  width: 600px;
+  width: 500px;
 }
 
 .carousel-inner {
@@ -26,4 +25,14 @@ height: 100vh;
 .carousel-control-prev-icon,
 .carousel-indicators {
   filter: invert(1);
+}
+
+.project-card {
+  background-color: grey;
+  margin: 50px;
+  border-radius: 4px;
+}
+
+.stack {
+  font-size: 24px;
 }
