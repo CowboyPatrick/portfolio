@@ -8,3 +8,22 @@ height: 100vh;
 .container {
   background-color: white;
 }
+
+
+#carebridgeCarousel {
+  width: 600px;
+}
+
+#luCarousel {
+  width: 600px;
+}
+
+.carousel-inner {
+   border-radius: 16px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators {
+  filter: invert(1);
+}
