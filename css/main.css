@@ -21,6 +21,10 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
    border-radius: 16px;
 }
 
+/*.carousel-indicators {
+position: absolute;
+}*/
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon,
 .carousel-indicators {
@@ -51,8 +55,10 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   border-radius: 16px;
 }
 .banner {
-  flex-wrap: wrap-reverse;
   color: aliceblue;
+}
+.container {
+  margin: 0 auto;
 }
 
 #about-me {
@@ -74,6 +80,18 @@ background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 }
 
 #about-contact {
+  font-size: 36px;
+}
+
+#about-contact a {
+  color: grey;
+  opacity: .5;
+}
+
+#about-contact a :hover {
+  color: aliceblue;
+  font-size: 40px;
+  opacity: none;
 }
 
 .btn {
