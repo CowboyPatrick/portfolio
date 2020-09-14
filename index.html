@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177931221-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-177931221-1');
+  </script>
 	<title>Patrick Campbell DEV </title>
     <meta charset="UTF-8">
   <meta name="description" content="Full-stack Developer and lover of beer, based in Kawasaki, Japan">
@@ -17,20 +26,18 @@
   <link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
 <body>
-  <div class= "container mt-5">
-      <div class= "banner row justify-content-center d-flex flex-column">
-        <div id="name" class="text-center mt-3">
+  <div class= "container">
+      <div class= "banner row justify-content-center d-flex flex-column mt-5">
+        <div id="name" class="text-center mt">
           <h1>PATRICK CAMPBELL</h1>
           <h2>web developer</h2>
         </div>
-        <div class="d-flex row" id="about-me">
-          <div >
-          <img id="photo" src="img/portfolio-pic.jpg"  alt="a handsome man looking off into the distance">
-          </div>
-          <div>
-            <p>I'm originally from the lovely state of Idaho but have been living in Kawasaki for the last 12 years.  I recently completeted a nine week intensive coding program from Le Wagon Tokyo.  When I'm not trying to help my oldest daughter with her dream of opening a Taco stand, I'm in search of unusal drink to try or make at home.</p>
-          </div>
+      <div class="row d-flex justify-content-center mt-5" id="about-me">
+        <img src="img/portfolio-pic.jpg" id="photo" alt="a handsome man looking into the distance">
+        <div id="about-text">
+          <p>I'm originally from the lovely state of Idaho but have been living in Kawasaki for the last 12 years.  I recently completeted a nine week intensive coding program from Le Wagon Tokyo.  When I'm not trying to help my oldest daughter with her dream of opening a Taco stand, I'm in search of unusal drink to try or make at home.</p>
         </div>
+      </div>
     </div>
 
     <div class="row d-flex justify-content-between p-4 project-card">
@@ -81,7 +88,7 @@
       <div class="about-project">
         <h2>LU</h2>
         <h4>Lead Developer</h4>
-        <p>My team and I had a great time doing this project.  We created an airbnb clone based on toilets.  One of the most challenging aspects of this project was making it possible to for a user to rent toilets but also to provide a toilet for others to use.    </p>
+        <p>My team and I had a great time doing this project.  We created an airbnb clone based on toilets.  One of the most challenging aspects of this project was making it possible for a user to rent toilets but also to provide a toilet for others to use.    </p>
           <div class="stack">
             <span class="devicons devicons-github_alt"></span>
             <span class="devicons devicons-ruby"></span>
@@ -123,10 +130,6 @@
         </a>
       </div>
     </div>
-
-
-
-
   </div>
 
 
