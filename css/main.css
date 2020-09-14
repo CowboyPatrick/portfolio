@@ -67,6 +67,10 @@ position: absolute;
   font-family: 'Noto Sans JP', sans-serif;
   text-shadow: 2px 2px darkslategrey;
 }
+
+h2 {
+  ont-family: 'Noto Sans JP', sans-serif;
+}
 .container {
   margin: 0 auto;
 }
@@ -105,5 +109,5 @@ position: absolute;
 }
 
 .btn {
-  width: 100px;
+  width: 120px;
 }
