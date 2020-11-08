@@ -46,6 +46,11 @@ position: absolute;
   border-radius: 4px;
 }
 
+#drinkapi img {
+  width: 500px;
+  border-radius: 16px;
+}
+
 .stack {
   font-size: 32px;
 }
