@@ -45,6 +45,9 @@ position: absolute;
   margin: 50px;
   border-radius: 4px;
 }
+#drinkapi {
+  width: 500px;
+}
 
 #drinkapi img {
   width: 100%;
