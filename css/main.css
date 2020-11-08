@@ -71,6 +71,8 @@ position: absolute;
 .banner {
   color: aliceblue;
   margin: 12px auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .banner h1 {
@@ -79,7 +81,7 @@ position: absolute;
 }
 
 h2 {
-  ont-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .container {
   margin: 0 auto;
@@ -87,7 +89,7 @@ h2 {
 
 #about-me {
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
 }
 
 #name h1 {
