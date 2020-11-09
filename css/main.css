@@ -149,4 +149,15 @@ h2 {
     display: inline-flex;
     margin: 0;
   }
+  #photo {
+    width: 350px;
+    margin: 0;
+  }
+  #about-me {
+    display: block;
+  }
+  #about-text {
+    padding: 0px;
+    margin-top: 0px;
+  }
 }
